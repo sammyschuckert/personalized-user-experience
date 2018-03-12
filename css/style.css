@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/*------------------------------------*    $SASS VARIABLES
+\*------------------------------------*/
+/*------------------------------------*    $RESET
+\*------------------------------------*/
+/* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure, main {
+  margin: 0;
+  padding: 0; }
+
+header, footer, nav, section, article, hgroup, figure, main {
+  display: block; }
+
+/*------------------------------------*    $BODY
+\*------------------------------------*/
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  background: #fff;
+  font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #2b2441;
+  min-height: 100%; }
+  @media (min-width: 768px) {
+    body {
+      margin: 60px 0 120px 0; } }
+
+/*------------------------------------*    $FOOTER
+\*------------------------------------*/
+.footer {
+  background-color: #f5f5f5;
+  padding: 15px 0px 0px 0px;
+  position: inherit;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .footer {
+      bottom: 0;
+      margin: 0;
+      border-width: 1px 0 0;
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030; } }
+
+/*------------------------------------*    $HEADINGS
+\*------------------------------------*/
+h1, h2, h3, h4, h5 {
+  font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 2em 0 0.5em; }
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.5;
+  margin: 0.5em 0 0.5em; }
+  h1 cite {
+    font-style: normal; }
+  h1 em {
+    font-family: "Bitter", serif;
+    display: block;
+    color: #757df8;
+    font-size: 40%;
+    font-weight: normal;
+    text-transform: lowercase; }
+
+h2 {
+  font-size: 1.8em;
+  line-height: 1.2;
+  margin: 1em 0 0.5em; }
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2; }
+
+h4 {
+  font-size: 0.75em;
+  line-height: 1.2; }
+
+h5 {
+  color: #757df8;
+  font-size: 0.5em; }
+
+.text {
+  font-family: "Bitter", serif;
+  font-size: 140%; }
+
+/*------------------------------------*    $LINKS
+\*------------------------------------*/
+a {
+  color: #757df8; }
+  a:hover {
+    color: #2b2441;
+    cursor: pointer; }
+
+a.h-link {
+  color: #757df8; }
+  @media (min-width: 992px) {
+    a.h-link {
+      position: absolute; } }
+
+@media (min-width: 992px) {
+  a.h-link-1 {
+    left: -35px; }
+  a.h-link-2 {
+    left: -50px; }
+  a.h-link-3 {
+    left: -50px; }
+  a.h-link-4 {
+    left: -60px; }
+  a.h-link-5 {
+    left: -70px; } }
+
+a.btn-primary {
+  background-color: #757df8;
+  border: 0px;
+  font-family: "Source Code Pro", monospace; }
+  a.btn-primary:hover, a.btn-primary:focus {
+    background-color: #2b2441; }
+
+/*------------------------------------*    $MEDIA ELEMENTS
+\*------------------------------------*/
+img, video, object {
+  max-width: 100%;
+  height: auto; }
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center; }
+
+figcaption {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.75em;
+  color: #757df8;
+  max-width: 38em;
+  margin: 1em auto; }
+
+p {
+  margin: 0 0 1em; }
+
+blockquote {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+  color: #2b2441;
+  padding-left: 0.8em;
+  border-left: 4px solid #757df8;
+  margin: 2em 0; }
+  blockquote cite {
+    display: block;
+    color: #878787;
+    font-style: normal;
+    font-size: 0.75em;
+    margin-top: 0.5em; }
+    blockquote cite a {
+      color: #2b2441; }
+    blockquote cite:before {
+      content: "— "; }
+
+pre {
+  background: #000;
+  color: #fff;
+  padding: 1em;
+  word-wrap: break-word;
+  overflow-x: hidden; }
+
+ul.toc-list li {
+  list-style-type: none;
+  font-family: "Source Code Pro", monospace; }
+
+ul {
+  margin: 0 0 1em; }
+  ul li {
+    margin: 0.5em 0 0.5em; }
+
+table {
+  overflow-x: auto;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.75em; }
+
+tbody {
+  vertical-align: top; }
+
+table tr td {
+  min-width: 0px;
+  padding-right: 15px;
+  padding-bottom: 15px; }
+  @media (min-width: 768px) {
+    table tr td {
+      min-width: 240px; } }
+
+/*------------------------------------*    $NOTE
+\*------------------------------------*/
+.note p {
+  font-family: "Source Code Pro", monospace;
+  color: #2b2441;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0em; }
+  .note p a {
+    color: #757df8; }
+    .note p a:hover, .note p a:focus {
+      color: #2b2441; }
+
+.alert-warning {
+  background-color: #fff6cc;
+  border-color: #ffe880; }
+
+/*------------------------------------*    $NEWSLETTER
+\*------------------------------------*/
+.newsletter-subscribe p {
+  padding: 0px; }
+  @media (min-width: 1200px) {
+    .newsletter-subscribe p {
+      padding: 13px 0; } }
+
+.newsletter-subscribe form .form-control {
+  background: #white;
+  border: solid 1px #757df8;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 150px; }
+  @media (min-width: 768px) {
+    .newsletter-subscribe form .form-control {
+      min-width: 250px; } }
+
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1; }
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1; }
+
+.newsletter-subscribe form .btn:active {
+  transform: translateY(1px); }
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #2b2441 !important;
+  color: #fff;
+  outline: none !important; }

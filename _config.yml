@@ -1,0 +1,21 @@
+# Site settings
+title: Personalized User Experience
+email: me@sammyschuckert.de
+description: > # this means to ignore newlines until "baseurl:"
+  Principles and strategies for the design of adaptive user interfaces
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sammyschuckert.de" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: sammyschuckert
+github_username:  sammyschuckert
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+breadcrumbs:
+root:
+  hide: true  # show breadcrumbs on root/home page
+  image: false # Show image or title text
+include: ['_pages']
