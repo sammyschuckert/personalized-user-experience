@@ -11,8 +11,8 @@
 				<div class="col-sm-6 text">
 					<h2>Personalized User Experience <del>is</del> <ins>will be</ins> a book by <a target="_blank" href="http://sammyschuckert.de/?utm_source=PUX&utm_medium=Landingpage&utm_campaign=PUX">Sammy Schuckert</a>.</h2>
 					<p>By identifing challenges for the design of user interfaces that adapt to the context of use. I came up with six principles and several strategies that help designers of adaptive user interfaces to overcome the identified challenges.</p>
-					<a href="/signup" role="button" class="btn btn-primary btn-lg">Preorder the Book</a>
-					<a href="/table-of-contents" role="button" class="btn btn-primary btn-lg">Read now</a></p>
+					<a href="{{ "/signup" | prepend: site.baseurl }}" role="button" class="btn btn-primary btn-lg">Preorder the Book</a>
+					<a href="{{ "/table-of-contents" | prepend: site.baseurl }}" role="button" class="btn btn-primary btn-lg">Read now</a></p>
 				</div>
 			</div>
 		</div>
@@ -25,6 +25,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>
