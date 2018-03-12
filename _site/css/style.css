@@ -92,6 +92,11 @@ h5 {
   font-family: "Bitter", serif;
   font-size: 140%; }
 
+.disclaimer {
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  margin-bottom: 30px; }
+
 /*------------------------------------*    $LINKS
 \*------------------------------------*/
 a {
@@ -121,7 +126,9 @@ a.h-link {
 a.btn-primary {
   background-color: #757df8;
   border: 0px;
-  font-family: "Source Code Pro", monospace; }
+  font-family: "Source Code Pro", monospace;
+  margin-right: 20px;
+  margin-top: 20px; }
   a.btn-primary:hover, a.btn-primary:focus {
     background-color: #2b2441; }
 
