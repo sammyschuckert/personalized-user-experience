@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Create a maintainable adaptive design strategy
-image: /chapter-5-create-a maintainable-adaptive design-strategy/cover-illu-chapter-5.png
+image: /img/chapter-5-create-a maintainable-adaptive design-strategy/cover-illu-chapter-5.png
 permalink: /chapter-5/
 ---
 # Create a maintainable adaptive design strategy
