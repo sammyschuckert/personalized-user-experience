@@ -1,0 +1,353 @@
+/*------------------------------------*\
+    $SASS VARIABLES
+\*------------------------------------*/
+
+$white : #fff;
+$tan-light : #fbfaee;
+$blue-light : #757df8;
+$grey-light: #878787;
+$black : #000;
+$blue-dark : #2b2441;
+
+$font-primary: 'Open Sans', Helvetica Neue, Helvetica, sans-serif;
+$font-note: 'Source Code Pro', monospace;
+$font-secondary: 'Bitter', serif;
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$font-size-sm : 0.75em;
+$font-size-md : 1.0em;
+$font-size-lg : 1.2em;
+$font-size-xlg: 1.5em;
+
+
+$max-width : 740px;
+
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+
+/* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure, main {
+	margin: 0;
+	padding: 0;
+}
+header, footer, nav, section, article, hgroup, figure, main {
+	display: block;
+}
+
+/*------------------------------------*\
+    $BODY
+\*------------------------------------*/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+
+	background: $white;
+	font-family: $font-primary;
+	font-size: $font-size-xlg;
+	line-height: 1.5;
+	color: $blue-dark;
+	min-height: 100%;
+	@media (min-width: $screen-sm-min){
+	margin: 60px 0 120px 0;
+	}
+}
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+.footer {
+  background-color: #f5f5f5;
+  padding: 15px 0px 0px 0px;
+  position: inherit;
+  margin-top:30px;
+
+ 	@media (min-width: $screen-sm-min){
+ 	bottom: 0;
+	margin: 0;
+	border-width: 1px 0 0;
+  	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;}
+}
+/*------------------------------------*\
+    $HEADINGS
+\*------------------------------------*/
+
+h1,h2,h3,h4,h5{
+	font-family: $font-primary;
+	font-weight: 700;
+	margin: 2em 0 0.5em;
+
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 1.5;
+	margin: 0.5em 0 0.5em;
+
+	cite {
+		font-style: normal;
+	}
+
+	em {
+		font-family: $font-secondary;
+		display: block;
+		color: $blue-light;
+		font-size: 40%;
+		font-weight: normal;
+		text-transform: lowercase;
+	}
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 1.2;
+	margin: 1em 0 0.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+    line-height: 1.2;
+}
+
+h4 {
+	font-size: 0.75em;
+    line-height: 1.2;
+}
+
+h5 {
+	color: $blue-light;
+	font-size: 0.5em;
+}
+.text {
+	font-family: $font-secondary;
+	font-size: 140%;
+}
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+
+a {
+	color: $blue-light;
+	&:hover {
+		color: $blue-dark;
+		cursor: pointer;
+	}
+}
+a.h-link {
+	color: $blue-light;
+	@media (min-width: $screen-md-min){
+	position: absolute;
+}
+}
+@media (min-width: $screen-md-min){
+a.h-link-1{
+		left: -35px;
+	}
+	a.h-link-2{
+		left: -50px;
+	}
+	a.h-link-3{
+		left: -50px;
+	}
+	a.h-link-4{
+		left: -60px;
+	}
+	a.h-link-5{
+		left: -70px;
+	}
+	}
+
+a.btn-primary{
+	background-color: $blue-light;
+	border: 0px;
+	font-family: $font-note;
+
+	&:hover, &:focus {
+		background-color: $blue-dark; 
+	}
+}
+
+/*------------------------------------*\
+    $MEDIA ELEMENTS
+\*------------------------------------*/
+
+img, video, object {
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+figcaption {
+	font-family: $font-note;
+	font-size: $font-size-sm;
+	color: $blue-light;
+	max-width: 38em;
+	margin: 1em auto;
+}
+
+@charset "UTF-8";
+
+p {
+	margin: 0 0 1em;
+}
+
+blockquote {
+	font-family: $font-note;
+	font-size: $font-size-lg;
+	color: $blue-dark;
+	padding-left: 0.8em;
+	border-left: 4px solid $blue-light;
+	margin: 2em 0;
+
+	cite {
+
+		display: block;
+		color: $grey-light;
+		font-style: normal;
+		font-size: $font-size-sm;
+		margin-top: 0.5em;
+
+		a {
+			color: $blue-dark;
+		}
+
+		&:before {
+			content: "— ";
+		}
+	}
+}
+
+pre {
+	background: $black;
+	color: $white;
+	padding: 1em;
+	word-wrap: break-word;
+	overflow-x: hidden;
+}
+
+ul.toc-list li{
+	list-style-type: none;
+	font-family: $font-note;
+}
+ul{
+	margin: 0 0 1em;
+	li {
+		margin: 0.5em 0 0.5em;
+	}
+}
+table{
+	overflow-x:auto;
+	font-family: $font-note;
+	font-size: $font-size-sm;
+}
+tbody{
+	vertical-align: top;
+
+
+}
+table tr td{
+	min-width: 0px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+
+@media (min-width: $screen-sm-min){
+	min-width: 240px;
+}
+
+}
+
+/*------------------------------------*\
+    $NOTE
+\*------------------------------------*/
+
+.note p {
+	font-family: $font-note;
+	color: $blue-dark;
+	font-size: $font-size-lg;
+	line-height: 1.5;
+	margin: 0em;
+
+	a {
+		color: $blue-light;
+
+		&:hover, &:focus {
+			color: $blue-dark;
+		}
+	}
+}
+.alert-warning{
+	background-color: #fff6cc;
+    border-color: #ffe880;
+}
+
+/*------------------------------------*\
+    $NEWSLETTER
+\*------------------------------------*/
+.newsletter-subscribe p {
+	padding: 0px;
+	@media (min-width: $screen-lg-min){
+	padding: 13px 0;
+}
+}
+.newsletter-subscribe form .form-control {
+  background:#white;
+  border: solid 1px $blue-light;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:150px;
+ 	@media (min-width: $screen-sm-min){
+  		min-width: 250px;
+  }
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: $blue-dark !important;
+  color:#fff;
+  outline:none !important;
+}
