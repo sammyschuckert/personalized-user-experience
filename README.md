@@ -5,6 +5,7 @@ This is the repository for the book Personalized User Experience  by [Sammy Schu
 
 - Visit the [project's homepage](http://personalized-ux.sammyschuckert.de/)
 - Read more about the project [here](http://personalized-ux.sammyschuckert.de/chapter-0/)
+- Find the open markdown files of the book [here](https://github.com/sammyschuckert/personalized-user-experience/tree/master/_pages)
 - ~~You can preorder the e-book and support the project~~
 - You can [sign up for email updates](http://personalized-ux.sammyschuckert.de/signup/) to get progress on the project and receive resources about design
 
