@@ -125,7 +125,7 @@ Another example is the latest add-on to Google’s Android operating system, Goo
 
 {% include figure.html src="/img/chapter-2-conditions-clear/android-auto.png" caption="Figure 29: Google Android Auto – settings auto launch when Bluetooth connects (left). Google Android Auto – home screen with navigation recommendations (right)." %}
 
-{% include figure.html src="/img/chapter-2-conditions-clear/androidautoonyourphone_1447-100661632-orig.jpg" caption="Figure 29: Google Android Auto – settings auto launch when Bluetooth connects (left). Google Android Auto – home screen with navigation recommendations (right)." %}
+{% include figure.html src="/img/chapter-2-conditions-clear/androidautoonyourphone_1447-100661632-orig.jpg" caption="Figure 30: Google Android Auto – home screen inside car." %}
 
 ### Major areas of adaptivity
 As illustrated in this chapter, UI adaptation can be applied in various forms. Many applications combine different domains of UI adaptation in one user interface. In chapter  2.1.3, the three major components which an Adaptive UI can adapt to were introduced: the platform, the user and the environment. With regards to these components, the domains of implementation of UI adaptation can be broken down into three major areas of adaptivity. Because the user is the one in front of the UI, it is no surprise that User Adaptivity is the most important area of UI adaptation, counted on the domains of UI adaptation that primarily adapt to the user (see Table 2). 

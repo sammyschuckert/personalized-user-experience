@@ -8,7 +8,7 @@ permalink: /chapter-0/
 ## Personalized User Experience  
 ### Principles and strategies for the design of adaptive user interfaces  
 
-> “Software is complex and unpredictable. We don’t know exactly what it look like when we are done – in fact it’s never done. We know even less, about what our customers are actually going to do with it.” <cite>Jeff Gothelf, Author of Lean UX</cite> 
+> “Software is complex and unpredictable. We don’t know exactly what it looks like when we are done – in fact it’s never done. We know even less, about what our customers are actually going to do with it.” <cite>Jeff Gothelf, Author of Lean UX</cite> 
   
 The book will answer five sub questions to find an answer to the questions:   
   

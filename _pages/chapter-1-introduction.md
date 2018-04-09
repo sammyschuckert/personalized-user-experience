@@ -8,7 +8,7 @@ permalink: /chapter-1/
 ## One Size Fits All?  
   
 > Software is complex and unpredictable. We don’t know exactly
-what it look like when we are done – in fact it’s never done. We know even less, about what our customers are actually going to do with it. <cite>Jeff Gothelf, Author of Lean UX</cite>  
+what it looks like when we are done – in fact it’s never done. We know even less, about what our customers are actually going to do with it. <cite>Jeff Gothelf, Author of Lean UX</cite>  
 
 **As technology advances, we get in touch with user interfaces (UIs) more and more on all kind of day to day activities.**
 
