@@ -18,4 +18,4 @@ breadcrumbs:
 root:
   hide: true  # show breadcrumbs on root/home page
   image: false # Show image or title text
-include: ['_pages']
+include: ['_chapters']
